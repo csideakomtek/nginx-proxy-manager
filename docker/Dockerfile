@@ -3,7 +3,7 @@
 
 # This file assumes that the frontend has been built using ./scripts/frontend-build
 
-FROM nginxproxymanager/nginx-full:certbot-node
+FROM jc21/nginx-proxy-manager:latest
 
 ARG TARGETPLATFORM
 ARG BUILD_VERSION
